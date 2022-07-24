@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 50% 50%;
+    font-family: 'Roboto', sans-serif;
+}
+.log{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#well{
+    font-size: 40px;
+    transform: translateX(-45px);
+}
+.details{
+    font-size: 18px;
+    transform: translateY(-30px)translateX(-10px);
+    color: #727171;
+}
+#form{
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+    
+}
+span{
+    display: flex;
+    flex-direction: column;
+}
+#lemail{
+    font-size: 18px;
+}
+#email{
+    width: 350px;
+    height: 30px;
+    border: solid 1px rgb(165, 160, 160);
+    border-radius: 5px;
+}
+#pass{
+    width: 350px;
+    height: 30px;
+    border: solid 1px rgb(165, 160, 160);
+    border-radius: 5px;
+}
+.btn{
+   width: 350px;
+   height: 40px;
+   background-color:#560bad;
+   border: none;
+   border-radius: 8px;
+   color: #f2f2f2;
+   font-size: 16px;
+}
+#imgb{
+    height: 20px;
+    width: 20px;
+    
+}
+.btn1{
+    width: 350px;
+   height: 40px;
+   font-size: 16px;
+   border: solid 1px #727171;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   justify-content: center;
+}
+.bbtn{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.bbtn a{
+    text-decoration: none;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.acount{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.acount a{
+    text-decoration: none;
+}
+.main{
+     grid-column-start: 2;
+     grid-column-end: 3;
+     background-color:#f2f2f2;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color:#560bad;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1000;
+    transform: translateY(-50px);
+}
+.square{
+    height: 55%;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.20 );
+    z-index: 100000;
+    transform: translateY(120px);
+    backdrop-filter: blur(12px );
+  -webkit-backdrop-filter: blur(12px);
+  
+}
